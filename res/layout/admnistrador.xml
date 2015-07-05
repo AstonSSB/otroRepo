@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabajadores"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/BtnIngresarTrabajador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Trabajador" />
+
+    <Button
+        android:id="@+id/BtnModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar Trabajador" />
+
+    <Button
+        android:id="@+id/BtnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar trabajador" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secciones"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/BtnIngresarSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Seccion" />
+
+    <Button
+        android:id="@+id/BtnModificarSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar Seccion" />
+
+    <Button
+        android:id="@+id/BtnEliminarSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Seccion" />
+
+</LinearLayout>
